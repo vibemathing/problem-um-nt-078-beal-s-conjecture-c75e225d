@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.1.0",
+  "channel": "chatgpt-web-github-issue-pr-writer",
+  "repository": "vibemathing/problem-um-nt-078-beal-s-conjecture-c75e225d",
+  "repository_identity": {
+    "binding_state": "verified",
+    "database_id": 1359772627,
+    "node_id": "R_kgDOUQx70w",
+    "default_branch": "main"
+  },
+  "problem_id": "problem:um-nt-078-beal-s-conjecture-c75e225d",
+  "problem_contract_sha256": "31b88104247f01bdfb299b08487e2eca6097771ad77401a2cf9f823e9cd3250b",
+  "harness_snapshot_sha256": "2ee3f8014650ea937d13e08eacfd8b8e9751cc26a98811ce6e67d54915d1cf96",
+  "base_revision": "7cc54d4f77d9f65203884f2339228d2567fc8e0d",
+  "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+  "attempt_id": "attempt:um-nt-078-beal-s-conjecture-c75e225d-source-fidelity-01",
+  "route_id": "route:um-nt-078-beal-s-conjecture-c75e225d-source-fidelity",
+  "graph_id": "graph:um-nt-078-beal-s-conjecture-c75e225d-v1",
+  "obligation_id": "obligation:um-nt-078-beal-s-conjecture-c75e225d-statement-fidelity",
+  "generator": {
+    "principal": "chatgpt-web-github",
+    "model_label": "GPT-5.6 Sol Pro",
+    "model_fingerprint_status": "unverified"
+  },
+  "transport": {
+    "branch": "web/attempt-um-nt-078-source-fidelity-01",
+    "issue_number": 1,
+    "issue_url": "https://github.com/vibemathing/problem-um-nt-078-beal-s-conjecture-c75e225d/issues/1",
+    "pull_request_number": null,
+    "pull_request_url": null
+  },
+  "objective": "Audit the frozen NT-078 sentence against its cited source context and sponsor-maintained formulation; record the missing variable domains, quantifier scope, terminology, status and attribution limits without editing the ProblemContract.",
+  "candidate_artifacts": [
+    {
+      "candidate_id": "candidate:um-nt-078-beal-s-conjecture-c75e225d-source-fidelity-01",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/um-nt-078-source-fidelity-01.md",
+      "sha256": "375a49392b7bce936f9b45dbc61bce6d541c87b3c9dcc0e34916eeb8ffb636ff"
+    }
+  ],
+  "atomic_claims": [
+    {
+      "claim_id": "claim:um-nt-078-frozen-domain-gap",
+      "text": "The frozen one-sentence statement does not independently quantify A, B, C, x, y and z or state that they are positive integers.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:um-nt-078-source-domain-recovery",
+      "text": "The cited NT-078 background and the University of North Texas sponsor statement both supply the intended domain A, B, C, x, y, z in the positive integers with x, y, z greater than 2.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:um-nt-078-common-prime-semantics",
+      "text": "The conclusion means that one prime divides all three bases, and its intended negation is a positive-integer solution with gcd(A,B,C)=1.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:um-nt-078-attribution-limit",
+      "text": "Beal's Conjecture is a supported common title, but this audit does not establish exclusive historical priority; MathWorld also records the name Tijdeman-Zagier conjecture.",
+      "status": "candidate"
+    }
+  ],
+  "assumptions": [
+    "The cited web pages are treated as untrusted research sources retrieved on 2026-09-09 and require statement-faithfulness review.",
+    "The canonical ProblemContract remains frozen; the explicit positive-integer formula is recorded only as a source-supported annotation."
+  ],
+  "risks": [
+    "The UnsolvedMath open-status classification is a dated tracker assessment, not a proof that no later or unindexed result exists.",
+    "The AMS prize statement was not directly retrieved; the sponsor-maintained University of North Texas page was used as the independent formulation.",
+    "No exhaustive historical-priority audit was performed.",
+    "No proof, formal kernel execution, or counterexample computation was performed."
+  ],
+  "open_obligations": [
+    "obligation:um-nt-078-beal-s-conjecture-c75e225d-statement-fidelity",
+    "obligation:um-nt-078-beal-s-conjecture-c75e225d-root"
+  ],
+  "failed_route_proposal": null,
+  "source_refs": [
+    {
+      "repository": "vibemathing/problem-um-nt-078-beal-s-conjecture-c75e225d",
+      "path": "problem-library/records/canonical-problems.jsonl",
+      "revision": "7cc54d4f77d9f65203884f2339228d2567fc8e0d",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-um-nt-078-beal-s-conjecture-c75e225d",
+      "path": "research/records/attempts.jsonl",
+      "revision": "7cc54d4f77d9f65203884f2339228d2567fc8e0d",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-um-nt-078-beal-s-conjecture-c75e225d",
+      "path": "research/records/obligation-graphs.jsonl",
+      "revision": "7cc54d4f77d9f65203884f2339228d2567fc8e0d",
+      "relation": "exact"
+    },
+    {
+      "repository": "www.unsolvedmath.com",
+      "path": "/problems/NT-078",
+      "revision": "retrieved-2026-09-09",
+      "relation": "exact"
+    },
+    {
+      "repository": "sites.math.unt.edu",
+      "path": "/~mauldin/beal.html",
+      "revision": "retrieved-2026-09-09",
+      "relation": "stronger"
+    },
+    {
+      "repository": "mathworld.wolfram.com",
+      "path": "/BealsConjecture.html",
+      "revision": "updated-2026-09-02-retrieved-2026-09-09",
+      "relation": "prior_art"
+    }
+  ],
+  "requested_verification": [
+    "human_review",
+    "statement_faithfulness"
+  ],
+  "verdict": "candidate_only",
+  "created_at": "2026-09-09T09:57:00Z"
+}
