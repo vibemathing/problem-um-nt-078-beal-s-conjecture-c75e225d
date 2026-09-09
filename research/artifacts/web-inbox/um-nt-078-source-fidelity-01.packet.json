@@ -26,8 +26,8 @@
     "branch": "web/attempt-um-nt-078-source-fidelity-01",
     "issue_number": 1,
     "issue_url": "https://github.com/vibemathing/problem-um-nt-078-beal-s-conjecture-c75e225d/issues/1",
-    "pull_request_number": null,
-    "pull_request_url": null
+    "pull_request_number": 2,
+    "pull_request_url": "https://github.com/vibemathing/problem-um-nt-078-beal-s-conjecture-c75e225d/pull/2"
   },
   "objective": "Audit the frozen NT-078 sentence against its cited source context and sponsor-maintained formulation; record the missing variable domains, quantifier scope, terminology, status and attribution limits without editing the ProblemContract.",
   "candidate_artifacts": [
